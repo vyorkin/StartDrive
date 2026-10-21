@@ -172,7 +172,7 @@ Rectangle {
             height: parent.height
             radius: height / 2
             color: row.fraction > 0.9 ? Color.urgent : Color.accent
-            Behavior on width { NumberAnimation { duration: Style.duration(160); easing.type: Easing.OutCubic } }
+            Behavior on width { NumberAnimation { duration: 160; easing.type: Easing.OutCubic } }
           }
         }
         Text {
